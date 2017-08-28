@@ -1,0 +1,1 @@
+angular.module('sampleApp', ['ngRoute', 'appRoutes', 'MainCtrl', 'AlumniCtrl', 'AlumniService', 'ContactCtrl', 'ContactService', 'VisitsCtrl', 'VisitsService', 'ProjectsCtrl', 'ProjectsService', 'InstructorCtrl', 'InstructorService', 'OverviewCtrl', 'OverviewService',  'FAQCtrl', 'FAQService', 'PreworkCtrl', 'PreworkService', 'AdminCtrl', 'AdminService']);

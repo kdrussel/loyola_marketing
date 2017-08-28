@@ -1,0 +1,559 @@
+/*font resources*/
+@font-face {
+  font-family: SlabBold;
+  src: local("Roboto Slab"),
+       local("RobotoSlab-Bold"),
+       url(RobotoSlab-Bold.ttf);
+}
+
+.slabbold{
+	font-family: SlabBold;
+}
+
+@font-face {
+  font-family: SlabLight;
+  src: local("RobotoSlab-Light"),
+       url(RobotoSlab-Light.ttf);
+}
+
+.slablight{
+	font-family: SlabLight;
+}
+
+@font-face {
+	font-family: SlabRegular;
+	 Src: local("RobotoSlab-Regular"),
+	 url(RobotoSlab-Regular.ttf);
+}
+
+.slabregular{
+	font-family: SlabRegular;
+}
+
+@font-face {
+	font-family: SlabThin;
+	Src: local("RobotoSlab-Thin"),
+	url(RobotoSlab-Thin.ttf);
+}
+
+.slabthin{
+	font-family: SlabThin;
+}
+
+@font-face {
+	font-family: FaithAndGloryTwo;
+	Src: local("Faith And Glory Two"),
+	url(Faith And Glory Two.otf);
+}
+
+.faithandglorytwo{
+	font-family: FaithAndGloryTwo;
+}
+
+@font-face {
+	font-family: ProximaNovaLight;
+	Src: local("ProximaNovaAW01-Light"),
+	url(ProximaNovaLight.ttf);
+}
+
+.proximanovalight{
+	font-family: ProximaNovaLight;
+}
+
+@font-face {
+	font-family: ProximaNovaBold;
+	Src: local("ProximaNovaAW01-Semibold"),
+	url(ProximaNovaSemibold.ttf);
+}
+
+.proximanovabold {
+	font-family: ProximaNovaBold;
+}
+
+.fix{
+	position: fixed;
+	width: 100%;
+	z-index: 1000;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color:#e5554f;
+	margin-top: 13px;
+	/*color: red;*/
+}
+
+
+.navbar-default .navbar-nav>li>a:hover{
+	color:#af2a2f;
+}
+
+.navbar-default .navbar-nav>li>a:active{
+	color:#af2a2f;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+	color: #af2a2f;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+    color:#e5554f;
+    background-color: rgba(255, 255, 255, 5);
+}
+
+.navbar-collapse{
+	background-color: white; 
+}
+
+a.dropdowntoggle{
+	color: #e5554f;
+}
+
+@media only screen and (min-width: 768px){
+.navbar-collapse{
+	background-color: transparent;
+}
+}
+
+.dropdown-menu>li>a:hover{
+	background-color: #ffe44d; 
+}
+
+.universityLinks{
+	margin-top: 14px;
+	display: inline-block;
+}
+
+ul.nav.navbar-nav{
+	margin-left: -6px;
+
+}
+
+nav.navbar{
+	height: 80px;
+	background: -webkit-linear-gradient(#ffd700, #ffe44d);
+	border: none;
+	border-radius: 0px;
+}
+
+.navbar-toggle.collapsed{
+	margin-top: 23px;
+	background-color: white;
+	margin-right: 10px; 
+}
+
+.navbar-toggle{
+	margin-top: 23px;
+	background-color: white;
+	margin-right: 10px; 
+}
+
+.wordmark {
+	width: 110px;
+	margin-left: 15px;
+	padding-right: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-right: solid 2.5px #af2a2f;
+}
+
+a.college {
+	font-family: SlabBold;
+	color: #af2a2f;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.college:hover{
+	color: #e5554f;
+}
+
+a.center {
+	font-family: SlabBold;
+	color: #af2a2f;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.center:hover{
+	color: #e5554f;
+}
+
+span.divider{
+	font-size: 20px;
+	margin-left: 1px;
+	margin-right: 1px;
+	color: #af2a2f;
+}
+
+a.course {
+	font-family: SlabLight, serif;
+	color: #e5554f;
+	text-decoration: none;
+	display: block;
+	font-size: 20px;
+	line-height: 0.8em;
+	letter-spacing: 0.3px;
+
+}
+
+.course:hover{
+	color: #af2a2f;
+}
+
+@media only screen and (max-width: 980px){
+	.universityLinks{
+		margin-top: 18px;
+		display: inline-block;
+	}
+}
+
+@media only screen and (max-width: 980px) {
+	.universityLinks a, .universityLinks span {
+		font-size: 15px;
+	}
+}
+@media only screen and (max-width: 980px) {
+	.wordmark{
+		width: 100px;
+	}
+}
+
+@media only screen and (max-width: 770px){
+	.universityLinks{
+		margin-top: 13px;
+		display: inline-block;
+	}
+}
+
+@media only screen and (max-width: 770px) {
+	.universityLinks a, .universityLinks span {
+		font-size: 15px;
+	}
+}
+
+@media only screen and (max-width: 770px){
+	.universityLinks{
+		margin-top: 11px;
+		display: inline-block;
+	}
+}
+
+@media only screen and (max-width: 549px){
+	.universityLinks a, .univesityLinks span {
+		font-size: 12px;
+	}
+}
+
+@media only screen and (max-width: 549px){
+	.wordmark{
+		width: 80px;
+	}
+}
+
+@media only screen and (max-width: 570px){
+	.universityLinks{
+		margin-top: 10px;
+	}
+}
+
+@media only screen and (max-width: 510px){
+	.universityLinks a, .univesityLinks span{
+		font-size: 10px;
+	}
+}
+@media only screen and (max-width: 510px){
+	 	span.divider{
+		font-size: 10px;
+	}
+}
+
+
+@media only screen and (max-width: 510px){
+	.universityLinks{
+		margin-top: 13px;
+	}
+}
+
+@media only screen and (max-width: 510px){
+	.universityLinks{
+		margin-left: -2px;
+	}
+}
+
+@media only screen and (max-width: 570px){
+	.wordmark{
+		width: 100px;
+	}
+}
+
+@media only screen and (max-width: 510px){
+	.wordmark{
+		width: 75px;
+		margin-top: 8px;
+		margin-left: 0px;
+	}
+}
+
+
+
+.view{
+	padding-top: 70px;
+}
+
+/*Alumni view:*/
+
+.alumni{
+	background-image: url("../resources/images/crossword.png");
+	background-repeat: repeat;
+	padding-bottom: 20px;
+}
+
+.row{
+	text-align: center;
+}
+
+.col-xs-4{
+	padding: 10px; 
+}
+
+.src-image {
+  display: none;
+}
+
+.card {
+  margin-top: 22px;
+  padding: 6px;
+  border-radius: 8px;
+  height: auto;
+  background: radial-gradient(#e5554f, #b30000);
+/*  background-color: #284c79;
+  color: rgb(136, 172, 217);*/
+}
+
+.card .avatar {
+  position: relative;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  z-index: 100;
+}
+
+.card .avatar img {
+  max-width: 200px;
+  border-radius: 100%;
+  border: 5px solid rgba(0,0,30,0.8);
+}
+
+.pagetitle{
+	font-family: FaithAndGloryTwo;
+	font-size: 100px;
+	color: #000000;
+}
+
+.pageline{
+	font-family: SlabLight;
+	color: #e5554f;
+	margin-top: -5px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+@media only screen and (max-width: 510px){
+	.card{
+		margin-top: 10px;
+	}
+}
+
+#menu {
+	border: 1px solid black;
+}
+
+#menuHeader {
+	display:inline;
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
+}
+
+#menuHeaderList {
+	border-bottom: 1px solid black;
+}
+
+#menuHeader li {
+	display: inline;
+    list-style: none;
+}
+
+#menuHeader h2 {
+	margin:0;
+    padding:20px;
+    display:inline;
+}
+
+.twitter-timeline {
+	float: left;
+	position: relative;
+}
+
+.panel-heading img{
+	width: 300px;
+}
+/*home view*/
+
+.jumbotron.text-center{
+	padding: 0px;
+	margin-top: 30px;
+}
+
+.pointer {
+	font-size: 50px;
+	position: absolute;
+	top: 50%;
+	bottom:50%;
+}
+
+
+.lefty {
+	text-align: left;
+	padding: 20px;
+	padding-top: 5px;
+	background: -webkit-linear-gradient(rgba(132,129,125,0.3), rgba(132,129,125,0.4));
+	border-radius: 3px;
+}
+
+.righty {
+	padding-right: 0px;
+	height: 729px;
+}
+
+.paragraph{
+	text-indent: 50px;
+	text-align: justify;
+}
+
+.menuheader ul{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.menuheader li{
+	display: inline-block;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.menuheadline{
+	text-align: center;
+	font-size: 32.5px;
+}
+
+.menulist{
+	padding-left: 20px;
+	text-align: justify-all;
+	margin-right: 20px;
+	list-style-type: none;
+	border-left: 1pt solid #84817d;
+	margin-left: 10px;
+}
+
+.menulist li{
+	margin-top: 15px;
+	text-decoration: none;
+}
+
+.maroonbtn {
+	background: -webkit-linear-gradient(#e5554f, #9b1c17);
+	border: solid 1pt rgba(255,255,255,0.4);
+	font-family: ProximaNovaBold;
+}
+
+.maroonbtn:hover{
+	border: solid 1pt white;
+	filter: brightness(1.1);
+
+}
+
+/*site visits*/
+
+.sanspagetitle{
+	font-family: ProximaNovalight;
+	font-weight: bold;
+}
+
+.panel-default>.panel-heading {
+	background-color: transparent;
+}
+
+.visit {
+	height: 560px;
+}
+
+.panel-heading img {
+	border-radius: 6px;
+}
+
+.panel-heading h4{
+	font-family: ProximaNovaLight;
+}
+
+.tagline {
+	font-family: ProximaNovaLight;
+	margin-top: -5px;
+	margin-bottom: 25px;
+}
+
+.sitelink {
+	position: absolute;
+	bottom: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0px;
+	right: 0px;
+}
+
+/*projects view*/
+
+.overflow{
+	overflow: hidden;
+}
+
+.smalljt{
+	padding-right: 100px;
+	padding-left: 100px;
+}
+
+.outsidecaption{
+position: absolute;
+bottom: -40px;
+float: right;
+}
+
+/*application view*/
+
+.marginform {
+	margin-top: 20px;
+}
+
+.transparent{
+	background-color: rgba(255,255,255,0.8);
+}
+
+.transparent h1{
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+

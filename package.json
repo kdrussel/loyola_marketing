@@ -1,0 +1,16 @@
+{
+  "name": "Final_Project",
+  "version": "1.0.0",
+  "description": "Team America Final Project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Bill, Savannah, Christian, Kerry and Will",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "mongoose": "^4.0.6",
+    "method-override": "~2.0.2"
+  }
+}
